@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cv">
+        <!-- todo 規劃cv-header 
+       
+       1. 名字
+       2. email 
+       
+       -->
+        <!--        header.cv-header>h1{Name}+p{email}再按tab(快捷鍵用法)-->
+        <header class="cv-header">
+            <h1>Name</h1>
+            <p>andy@kyosei.ai</p>
+        </header>
+        <!--        section.cv-body>.intro+.experiences再按tab(快捷鍵用法)-->
+        <section class="cv-body">
+            <div class="intro">
+                <!--                h2.section-title{intro}再按tab(快捷鍵用法)-->
+                <h2 class="section-title">intro</h2>
+                <!--                p>lorem20再按tab(快捷鍵用法), 填充假字用-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita reprehenderit corrupti aliquid aliquam, architecto illo eius alias repellendus porro nulla.</p>
+            </div>
+            <div class="experiences">
+                <!--                h2.section-title{experiences}再按tab(快捷鍵用法)-->
+                <h2 class="section-title">experiences</h2>
+                <div class="experience">
+                    <h3>Job title</h3>
+                    <img src="img/experience-company-logo1.svg" alt="logo1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores doloribus quam tenetur culpa nobis aspernatur architecto quas quidem rem possimus nisi sequi veniam, enim iste?</p>
+                </div>
+                <!--                .experience*3>h3{Job title}+img+p>lorem25 or (.experience>h3{Job title}+img+p>lorem25)*3-->
+                <div class="experience">
+                    <h3>Job title</h3>
+                    <img src="img/experience-company-logo2.svg" alt="logo2">
+                    <p>Ea mollitia alias consequuntur, eos optio facilis eius expedita commodi tempora veritatis autem, aut suscipit provident sapiente nihil debitis dolorem iusto velit et neque natus!</p>
+                </div>
+                <div class="experience">
+                    <h3>Job title</h3>
+                    <img src="img/experience-company-logo3.svg" alt="logo3">
+                    <p>Exercitationem, earum veritatis error tempore vitae totam alias in ipsum minus cum sed blanditiis maxime distinctio eum, nam tenetur iste reiciendis eaque voluptatum fugiat repellendus?</p>
+                </div>
+            </div>
+        </section>
+
+        <!--       footer.cv-footer再按tab(快捷鍵用法)-->
+        <footer class="cv-footer">
+            <!--           .soial-links再按tab(快捷鍵用法)-->
+            <div class="soial-links">
+                <!--                a.social-link[target="_blank"]*3-->
+                <!--                使用font awesome的icon-->
+                <a href="#" class="social-link" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="social-link" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="social-link" target="_blank">
+                    <i class="fa fa-github-alt" aria-hidden="true"></i>
+                </a>
+
+            </div>
+        </footer>
+
+        <!-- todo 規劃cv-body 
+       
+       1. intro 簡介區
+       2. experience 經歷區 放入職稱,簡介與公司logo
+       
+       -->
+
+        <!-- tood 規劃cv-footer
+        
+        1. 放入外部社群連結
+        
+        -->
+    </div>
+</body>
+
+</html>
