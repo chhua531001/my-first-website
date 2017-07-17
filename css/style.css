@@ -4,7 +4,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    /*    小技巧,一開始先設所有物件的邊界, 等所有敲定都完成再把此刪掉*/
+    /*    小技巧,一開始先設所有物件的邊界, 等所有設定都完成再把此刪掉*/
     /*    border: 1px solid black;*/
 }
 
@@ -83,10 +83,12 @@ html:after {
     /*    這個設定是搭配.experience>img中的position*/
     position: relative;
     padding: 30px 0;
+    /*    設定最下方有dash line*/
     border-bottom: 1px dashed #333;
 }
 
 .experience:last-child {
+    /*    去掉最後一組的dash line*/
     border-bottom: none;
 }
 
@@ -95,12 +97,13 @@ html:after {
     /*    把圖片調整到experience的右上角*/
     /*    這個設定要搭配上面的expreience的設定才會正確, 否則圖片會出現在整個文件的右上角*/
     position: absolute;
+    /*    以下是圖片定位用*/
     top: 20px;
     right: 0;
 }
 
 .social-link {
-    color: wheat;
+    color: white;
     /*    作成button的形式*/
     width: 40px;
     height: 40px;
@@ -109,7 +112,9 @@ html:after {
     /*    display: block;*/
     /*    inline-block會排在同一行*/
     display: inline-block;
+    /*    設定虛線框線*/
     border: 1px dashed #eee;
+    /*    黑色background*/
     background: rgba(0, 0, 0, .5);
     /*    border-radius為新屬性要有三種不同設定*/
     border-radius: 5px;
